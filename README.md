@@ -25,7 +25,7 @@ Barcode formats:
 ### Example import
 
 ```jsx
-import {NativeModules} from 'react-native';
+import { NativeModules } from 'react-native';
 
 const ScannerModule = NativeModules.ScannerModule;
 ```
@@ -48,7 +48,7 @@ onBarcodeRead = (barcode) => {
     //do something with barcode value
 }
 
-var barcodeTypes [
+const barcodeTypes [
     'QR_CODE', 
     'DATA_MATRIX', 
     'UPC_A', 
